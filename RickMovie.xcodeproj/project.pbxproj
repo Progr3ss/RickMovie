@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		916188A0263CC4EC003B7C99 /* MovieTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9161889F263CC4EC003B7C99 /* MovieTableViewController.swift */; };
+		916188A2263CD243003B7C99 /* EpisodesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916188A1263CD243003B7C99 /* EpisodesTableViewController.swift */; };
 		91D6762B263C5FB20006CF24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D6762A263C5FB20006CF24 /* AppDelegate.swift */; };
 		91D6762D263C5FB20006CF24 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D6762C263C5FB20006CF24 /* SceneDelegate.swift */; };
-		91D6762F263C5FB20006CF24 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D6762E263C5FB20006CF24 /* ViewController.swift */; };
+		91D6762F263C5FB20006CF24 /* MoviewListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D6762E263C5FB20006CF24 /* MoviewListViewController.swift */; };
 		91D67632263C5FB20006CF24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91D67630263C5FB20006CF24 /* Main.storyboard */; };
 		91D67634263C5FB40006CF24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91D67633263C5FB40006CF24 /* Assets.xcassets */; };
 		91D67637263C5FB40006CF24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91D67635263C5FB40006CF24 /* LaunchScreen.storyboard */; };
 		91D67642263C5FB40006CF24 /* RickMovieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D67641263C5FB40006CF24 /* RickMovieTests.swift */; };
 		91D6764D263C5FB40006CF24 /* RickMovieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D6764C263C5FB40006CF24 /* RickMovieUITests.swift */; };
+		91D6765B263C5FD20006CF24 /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D6765A263C5FD20006CF24 /* MovieModel.swift */; };
+		91D6766E263C79860006CF24 /* MovieListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D6766D263C79860006CF24 /* MovieListTableViewCell.swift */; };
+		91D67670263C7F5A0006CF24 /* UIImageView+DownloadImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D6766F263C7F5A0006CF24 /* UIImageView+DownloadImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9161889F263CC4EC003B7C99 /* MovieTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewController.swift; sourceTree = "<group>"; };
+		916188A1263CD243003B7C99 /* EpisodesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodesTableViewController.swift; sourceTree = "<group>"; };
 		91D67627263C5FB20006CF24 /* RickMovie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RickMovie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91D6762A263C5FB20006CF24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		91D6762C263C5FB20006CF24 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		91D6762E263C5FB20006CF24 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		91D6762E263C5FB20006CF24 /* MoviewListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviewListViewController.swift; sourceTree = "<group>"; };
 		91D67631263C5FB20006CF24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		91D67633263C5FB40006CF24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		91D67636263C5FB40006CF24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +56,10 @@
 		91D67648263C5FB40006CF24 /* RickMovieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RickMovieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		91D6764C263C5FB40006CF24 /* RickMovieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickMovieUITests.swift; sourceTree = "<group>"; };
 		91D6764E263C5FB40006CF24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91D6765A263C5FD20006CF24 /* MovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
+		91D6765C263C5FFD0006CF24 /* RickMovie-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RickMovie-Bridging-Header.h"; sourceTree = "<group>"; };
+		91D6766D263C79860006CF24 /* MovieListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListTableViewCell.swift; sourceTree = "<group>"; };
+		91D6766F263C7F5A0006CF24 /* UIImageView+DownloadImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+DownloadImage.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +112,17 @@
 			children = (
 				91D6762A263C5FB20006CF24 /* AppDelegate.swift */,
 				91D6762C263C5FB20006CF24 /* SceneDelegate.swift */,
-				91D6762E263C5FB20006CF24 /* ViewController.swift */,
+				91D6762E263C5FB20006CF24 /* MoviewListViewController.swift */,
 				91D67630263C5FB20006CF24 /* Main.storyboard */,
 				91D67633263C5FB40006CF24 /* Assets.xcassets */,
 				91D67635263C5FB40006CF24 /* LaunchScreen.storyboard */,
 				91D67638263C5FB40006CF24 /* Info.plist */,
+				91D6765A263C5FD20006CF24 /* MovieModel.swift */,
+				91D6765C263C5FFD0006CF24 /* RickMovie-Bridging-Header.h */,
+				91D6766D263C79860006CF24 /* MovieListTableViewCell.swift */,
+				91D6766F263C7F5A0006CF24 /* UIImageView+DownloadImage.swift */,
+				9161889F263CC4EC003B7C99 /* MovieTableViewController.swift */,
+				916188A1263CD243003B7C99 /* EpisodesTableViewController.swift */,
 			);
 			path = RickMovie;
 			sourceTree = "<group>";
@@ -195,6 +212,7 @@
 				TargetAttributes = {
 					91D67626263C5FB20006CF24 = {
 						CreatedOnToolsVersion = 12.5;
+						LastSwiftMigration = 1250;
 					};
 					91D6763C263C5FB40006CF24 = {
 						CreatedOnToolsVersion = 12.5;
@@ -258,8 +276,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91D6762F263C5FB20006CF24 /* ViewController.swift in Sources */,
+				91D67670263C7F5A0006CF24 /* UIImageView+DownloadImage.swift in Sources */,
+				91D6765B263C5FD20006CF24 /* MovieModel.swift in Sources */,
+				91D6762F263C5FB20006CF24 /* MoviewListViewController.swift in Sources */,
 				91D6762B263C5FB20006CF24 /* AppDelegate.swift in Sources */,
+				916188A0263CC4EC003B7C99 /* MovieTableViewController.swift in Sources */,
+				916188A2263CD243003B7C99 /* EpisodesTableViewController.swift in Sources */,
+				91D6766E263C79860006CF24 /* MovieListTableViewCell.swift in Sources */,
 				91D6762D263C5FB20006CF24 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -436,6 +459,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 76THFSRF3W;
 				INFOPLIST_FILE = RickMovie/Info.plist;
@@ -445,6 +469,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "martin-chibwe.RickMovie";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RickMovie/RickMovie-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -455,6 +481,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 76THFSRF3W;
 				INFOPLIST_FILE = RickMovie/Info.plist;
@@ -464,6 +491,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "martin-chibwe.RickMovie";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RickMovie/RickMovie-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
